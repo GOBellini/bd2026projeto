@@ -197,7 +197,7 @@ CREATE TABLE `locacoes` (
   `id_locacao` int(11) NOT NULL,
   `data_retirada` date NOT NULL,
   `data_devolucao_prevista` date NOT NULL,
-  `data_devolucao_real` date NOT NULL,
+  `data_devolucao_real` date NULL,
   `data_reserva` date DEFAULT NULL,
   `valor_total` decimal(8,2) DEFAULT NULL,
   `km_inicial` decimal(8,2) DEFAULT NULL,
